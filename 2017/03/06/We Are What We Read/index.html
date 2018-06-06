@@ -136,7 +136,7 @@
 </span>
 </span>
     </div>
-    <div class="post-content ">
+    <div class="post-content no-indent">
         <p>总觉得自己读书太少，阅读太浅，思想太薄。<br>也总觉得这个时代变得太快，信息太多，热点太频繁。</p>
 <p>也许是因为，制造热点，<br>或者说，文化本身，都已经成了产业和商品。<br>内容生产越来越细分，<br>我们读到的一切，都有着专门的生产者<br>——我也曾经很喜欢郭敬明和张嘉佳，<br>小的时候应该也会喜欢熊出没。<br>这些其实都没什么不好，<br>除了某些价值观值得商榷。</p>
 <p>那，这个博客，生产的是什么呢？</p>
@@ -166,7 +166,7 @@
 
         
         <li>
-            <a target="_blank" href="http://weibo.com/江海FOR">
+            <a target="_blank" href="http://weibo.com/3957828695">
                             <span class="fa-stack fa-lg">
                                   <i class="iconfont icon-weibo"></i>
                             </span>
@@ -183,7 +183,7 @@
     </ul>
     
     <p>
-        Created By <a href="https://hexo.io/">Hexo</a>  Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+        Created By Jiang Hai, adapted from Hexo Theme <a href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
 </footer>
 
 
@@ -200,5 +200,19 @@
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'We Are What We Read',
+        owner: 'jianghaifor',
+        repo: 'jianghaifor.github.io',
+        oauth: {
+            client_id: '2d20dca4bb2431f4d205',
+            client_secret: 'ad19f50f14a85b4084c51dfab434f703f60a93c3',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
